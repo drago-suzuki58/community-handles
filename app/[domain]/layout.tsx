@@ -28,6 +28,7 @@ export default function DomainLayout({ children, params }: Props) {
     window.location.reload();
   };
 
+  // If you want add a new language, you need to add it to the select options and add language to messages.tsx file.
   return (
     <>
       <SiteHeader items={siteConfig.mainNav}>
