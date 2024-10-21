@@ -36,7 +36,7 @@ export default function RootComponent({
     console.log(`language: ${lang}`);
   }, []);
 
-  const message = messages[language] || messages['en'];
+  const message = messages[language as keyof typeof messages] || messages['en'];
 
   return (
     <div>
@@ -106,14 +106,14 @@ export default function RootComponent({
                   {(() => {
                     switch (error2) {
                       case "handle taken":
-                        return message.errer_handle_taken;
+                        return message.error_handle_taken;
                       case "invalid handle":
                       case "slur":
-                        return message.errer_slur;
+                        return message.error_slur;
                       case "reserved":
-                        return message.errer_reserved;
+                        return message.error_reserved;
                       default:
-                        return message.errer_default;
+                        return message.error_default;
                     }
                   })()}
                 </p>

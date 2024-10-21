@@ -15,7 +15,7 @@ export default function CreateYourOwnComponent() {
       console.log(`language: ${lang}`);
     }, []);
 
-  const message = messages[language] || messages['en'];
+    const message = messages[language as keyof typeof messages] || messages['en'];
 
   return (
     <main className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
