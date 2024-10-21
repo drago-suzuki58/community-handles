@@ -47,7 +47,7 @@ export default function CreateYourOwnComponent() {
           <p className="mt-4 max-w-lg">
           {message.create_step_2_description_2}
             <a
-              href="https://github.com/mozzius/community-handles"
+              href="https://github.com/drago-suzuki58/community-handles"
               className="underline"
             >
               {message.create_step_2_description_3}

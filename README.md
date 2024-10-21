@@ -1,5 +1,7 @@
 # Bluesky Community Handles tool
 
+[日本語](README-ja.md)   [English](README.md)
+
 Get your own community handle for Bluesky!
 
 Go to https://swifties.social to join the swifties.social community.
@@ -67,6 +69,14 @@ That's it! You should now be able to go to your domain and use the community han
 
 > Remember it takes a few minutes for DNS to propagate, so it might not work straight away.
 
-If you have any problems, mention me on Bluesky ([@samuel.bsky.team](https://bsky.app/profile/samuel.bsky.team)) or DM me on Twitter ([@mozzius](https://twitter.com/mozzius)) and I'll try to help.
+If you have any problems, mention the original author on Bluesky ([@samuel.bsky.team](https://bsky.app/profile/samuel.bsky.team)) or DM them on Twitter ([@mozzius](https://twitter.com/mozzius)). They will try to help as much as possible.
 
-If you like the project, you can [sponsor me](https://github.com/sponsors/mozzius)! It's not required, but it's appreciated :)
+Alternatively, you can mention me on Bluesky ([@dorasuzublog.com](https://bsky.app/profile/dorasuzublog.com)). Since TypeScript is not my native language, I can only help with translation support, but I will do my best to assist.
+
+If you like the project, you can [sponsor the original project](https://github.com/sponsors/mozzius)! It's not required, but it's appreciated.
+
+## How to add translation languages?
+
+To add a language, insert the code for the language you want to add into `components\messages.tsx` and write it in the same format as en or ja.
+
+At the same time, add the same language code you just added to the select tag defined in the return clause of `app\[domain]\layout.tsx`.

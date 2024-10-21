@@ -64,9 +64,9 @@ const messages = {
     error_reserved: `予約されているハンドルです。別のハンドルを入力してください`,
     error_default: `エラーが発生しました。もう一度お試しください`,
     change_handle_tutorial: `Blueskyアプリ内でハンドルを変更する方法`,
-    change_handle_tutorial_description: (newHandle: string | undefined) => `設定 > 詳細 > ハンドルを変更 に移動します。「独自のドメインを持っています」を選択し、"${newHandle ? `"${newHandle}"` : "新しいハンドル"}"を入力します。最後に、「DNSレコードを確認」をタップします。`,
+    change_handle_tutorial_description: (newHandle: string | undefined) => `設定 > ハンドルを変更 に移動します。「自分のドメインを持っています」を選択し、"${newHandle ? `"${newHandle}"` : "新しいハンドル"}"を入力します。最後に、「DNSレコードを確認」をタップします。`,
     like_project_1: `このプロジェクトが気に入ったら`,
-    like_project_2: `ぜひ私をサポートしてください`,
+    like_project_2: `ぜひオリジナルプロジェクトをサポートしてください`,
     like_project_3: `。`,
 
     // members
