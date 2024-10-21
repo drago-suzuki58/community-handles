@@ -2,6 +2,12 @@
 
 [日本語](README-ja.md)   [English](README.md)
 
+> **警告**
+>
+> リポジトリのURLはサンプルです。
+>
+> 実際には機能しません。このリポジトリをフォークしてホスティングしてください。
+
 Bluesky用のコミュニティハンドルを取得しましょう！
 
 https://swifties.social にアクセスして、swifties.social コミュニティに参加してください。
@@ -71,7 +77,7 @@ pnpm prisma db push
 
 問題がある場合は、Bluesky でオリジナルの作者にメンションするか ([@samuel.bsky.team](https://bsky.app/profile/samuel.bsky.team))、Twitter で DM を送ってください ([@mozzius](https://twitter.com/mozzius))。できる限りお手伝いします。
 
-または、Blueskyで私にメンション ([@dorasuzublog,com](https://bsky.app/profile/dorasuzublog.com)) してください。TypeScriptはネイティブではないので翻訳サポートの部分のみにはなってしまいますが、できることはお手伝いします。
+または、Blueskyで私にメンション ([@dorasuzublog.com](https://bsky.app/profile/dorasuzublog.com)) してください。TypeScriptはネイティブではないので翻訳サポートの部分のみにはなってしまいますが、できることはお手伝いします。
 
 プロジェクトが気に入ったら、[オリジナルプロジェクトのスポンサーになる](https://github.com/sponsors/mozzius)こともできます！必須ではありませんが、感謝されます
 

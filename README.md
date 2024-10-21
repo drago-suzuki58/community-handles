@@ -2,6 +2,12 @@
 
 [日本語](README-ja.md)   [English](README.md)
 
+> **Warning**
+>
+> Repository URL is just sample.
+>
+> It actually doesn't work. Please fork this repository and host it.
+
 Get your own community handle for Bluesky!
 
 Go to https://swifties.social to join the swifties.social community.
